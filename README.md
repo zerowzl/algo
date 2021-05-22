@@ -27,7 +27,7 @@
 - 编程实现一组数据集合的全排列
 
 ## 排序
-- 实现归并排序、快速排序、插入排序 [InsertionSort](src/sort/InsertionSort.java)、冒泡排序 [BubbleSort](src/sort/BubbleSort.java)、选择排序 [SelectSort](src/sort/SelectSort.java) 
+- 实现归并排序 [MergeSort](src/sort/MergeSort.java)、快速排序、插入排序 [InsertionSort](src/sort/InsertionSort.java)、冒泡排序 [BubbleSort](src/sort/BubbleSort.java)、选择排序 [SelectSort](src/sort/SelectSort.java) 
 - 编程实现 O(n) 时间复杂度内找到一组数据的第 K 大元素
 
 ## 二分查找
