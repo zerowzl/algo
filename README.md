@@ -31,8 +31,8 @@
 - 编程实现 O(n) 时间复杂度内找到一组数据的第 K 大元素 [KthMax](src/sort/KthMax.java)
 
 ## 二分查找
-- 实现一个有序数组的二分查找算法
-- 实现模糊二分查找算法（比如大于等于给定值的第一个元素）
+- 实现一个有序数组的二分查找算法 [BinarySearch](src/search/BinarySearch.java)
+- 实现模糊二分查找算法（比如大于等于给定值的第一个元素）[BinarySearch](src/search/BinarySearch.java)
 
 ## 散列表和字符串
 - 实现一个基于链表法解决冲突问题的散列表
