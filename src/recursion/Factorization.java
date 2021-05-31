@@ -27,14 +27,14 @@ public class Factorization {
      */
     public static ArrayList<ArrayList<Integer>> factorization(int num) {
         ArrayList<ArrayList<Integer>> res = new ArrayList<>();
-        factorizationCore(num, res, new ArrayList<>(), false);
+        factorizationCore(num, res, new ArrayList<>());
         return res;
     }
 
 
-    private static void factorizationCore(int num, ArrayList<ArrayList<Integer>> res, ArrayList<Integer> ans, boolean oneUsed) {
+    private static void factorizationCore(int num, ArrayList<ArrayList<Integer>> res, ArrayList<Integer> ans) {
         if (num == 1) {
-            if (!oneUsed) {
+            if (!ans.contains(1)) {
                 ans.add(1);
             }
             res.add(ans);
@@ -42,20 +42,20 @@ public class Factorization {
         }
 
         for (int i = 1; i <= num; i++) {
-            if (oneUsed && i == 1) {
+            if (ans.contains(1) && i == 1) {
                 continue;
             }
             if (num % i == 0) {
                 ArrayList<Integer> newAns = (ArrayList<Integer>) ans.clone();
                 newAns.add(i);
-                factorizationCore(num / i, res, newAns, newAns.contains(1));
+                factorizationCore(num / i, res, newAns);
             }
         }
     }
 
 
     public static void main(String[] args) {
-        System.out.println(factorization(4));
+        System.out.println(factorization(8));
     }
 
 
