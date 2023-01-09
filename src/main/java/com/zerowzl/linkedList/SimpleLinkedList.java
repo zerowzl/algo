@@ -1,4 +1,4 @@
-package linkedList;
+package com.zerowzl.linkedList;
 
 /**
  * @author Dave Wang

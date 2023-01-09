@@ -1,4 +1,4 @@
-package recursion;
+package com.zerowzl.recursion;
 
 /**
  * 阶乘

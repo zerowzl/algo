@@ -1,4 +1,4 @@
-package search;
+package com.zerowzl.search;
 
 /**
  * 二分查找，普通的二分查找，对一个有序、无重复元素的数组进行查找

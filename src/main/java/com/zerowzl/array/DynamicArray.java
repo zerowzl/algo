@@ -1,4 +1,4 @@
-package array;
+package com.zerowzl.array;
 
 import java.util.Arrays;
 
