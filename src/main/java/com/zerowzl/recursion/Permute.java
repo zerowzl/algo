@@ -6,7 +6,7 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * 全排列
+ * 全排列（LeetCode 题解）
  *
  * @author Dave Wang
  */
