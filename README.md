@@ -91,8 +91,10 @@ public class Example {
 - 实现二叉树前、中、后序以及按层遍历
 
 ### 堆 (Heaps)
-- 实现一个小顶堆、大顶堆、优先级队列
-- 实现堆排序
+- 实现一个小顶堆 [MinHeap](/workspace/algo/src/main/java/com/zerowzl/heap/MinHeap.java)、大顶堆 [MaxHeap](/workspace/algo/src/main/java/com/zerowzl/heap/MaxHeap.java)、优先级队列 [PriorityQueue](/workspace/algo/src/main/java/com/zerowzl/heap/PriorityQueue.java)
+- 实现堆排序（已在MinHeap和MaxHeap中实现）
+- 通用堆实现 [AbstractHeap](/workspace/algo/src/main/java/com/zerowzl/heap/AbstractHeap.java)
+- 堆的使用示例 [HeapDemo](/workspace/algo/src/main/java/com/zerowzl/heap/HeapDemo.java)
 - 利用优先级队列合并 K 个有序数组
 - 求一组动态数据集合的最大 Top K
 
